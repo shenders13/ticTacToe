@@ -7,23 +7,25 @@
   </head>
   <body>
     <h1 class='header'> Tic Tac Toe </h1>
-    <table class='table' cellspacing="0" cellpadding="0">
-      <tr class='topRow'>
-        <th class='firstCol'>Firstname</th>
-        <th class='midCol'>Lastname</th> 
-        <th>Age</th>
-      </tr>
-      <tr class='middleRow'>
-        <td class='firstCol'>Jill</td>
-        <td class='midCol'>Smith</td> 
-        <td>50</td>
-      </tr>
-      <tr class='bottom'>
-        <td class='firstCol'>Eve</td>
-        <td class='midCol'>Jackson</td> 
-        <td>94</td>
-      </tr>
-    </table>
+    <center>
+      <table class='table' cellspacing="0" cellpadding="0">
+        <tr class='topRow' style="height:  100px; border-bottom: 1px solid black;">
+          <td class='firstCol' id='TL'></td>
+          <td class='midCol' id='TM'></td> 
+          <td class='lastCol' id='TR'></td>
+        </tr>
+        <tr class='middleRow'>
+          <td class='firstCol' id='ML'></td>
+          <td class='midCol' id='MM'></td> 
+          <td class='lastCol' id='MR'></td>
+        </tr>
+        <tr class='bottomRow'>
+          <td class='firstCol' id='BL'></td>
+          <td class='midCol' id='BM'></td> 
+          <td class='lastCol' id='BR'></td>
+        </tr>
+      </table>
+    </center>
     <script src="./index.js" type="text/javascript"></script>
   </body>
 </html>

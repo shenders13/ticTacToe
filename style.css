@@ -2,18 +2,47 @@
   color: #bbbbbb;
 }
 
+table tr
+{
+    border:1px solid black;
+}
+
+.table {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .topRow {
   border-bottom: black solid 1px;
+  height: 100px;  
 }
 
 .middleRow {
   border-bottom: black solid 1px;
+  height: 100px;
+}
+
+.bottomRow {
+  height: 100px;
 }
 
 .leftCol {
-    border-left: black solid 1px;
+  border-left: black solid 1px;
 }
 
 .midCol {
+  width: 100px;
   border-right: black solid 1px;
+  text-align: center;
+}
+
+.firstCol {
+  width: 100px;
+  border-right: black solid 1px;
+  text-align: center;
+}
+
+.lastCol {
+  width: 100px;
+  text-align: center;
 }
