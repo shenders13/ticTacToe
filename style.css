@@ -1,0 +1,19 @@
+.header {
+  color: #bbbbbb;
+}
+
+.topRow {
+  border-bottom: black solid 1px;
+}
+
+.middleRow {
+  border-bottom: black solid 1px;
+}
+
+.leftCol {
+    border-left: black solid 1px;
+}
+
+.midCol {
+  border-right: black solid 1px;
+}
